@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+*{
+    box-sizing: border-box;
+}
+body{
+ background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    height: 94vh;
+}
+
+.clock{
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 15em;
+    height: 15em;
+    margin: 50px auto;
+    position: relative;
+    padding: 3rem;
+    background: pink;
+  
+}
+.clockface{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transform: translateY(-3px);    
+}
+.hand {
+    width: 50%;
+    height: 4px;
+    position: absolute;
+    top: 50%;
+    background: black;
+    transform-origin: 100%;
+    transform: rotate(180deg);
+    transition: all ease 1s;
+}
+.hour-hand{
+    width: 30%;
+    margin-left: 20%;
+}
+.min-hand{
+	width:50%;
+	margin-left:1%;
+}
+#date {
+  width:100%;
+    position: relative;
+    top: 290px;
+    left: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: black;
+  font-size: 20px;
+}
+h2 {
+  width:100%;
+    position: relative;
+    top: 182px;
+    left: 11px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+
+}
+
